@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTaxi/HomeViewController.swift"
+            timestampString = "555503656.308778"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "416"
+            endingLineNumber = "416"
+            landmarkName = "pickUpTapped()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTaxi/HomeViewController.swift"
+            timestampString = "555503656.384052"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "417"
+            endingLineNumber = "417"
+            landmarkName = "pickUpTapped()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTaxi/View Controllers/BookingDetailsViewController.swift"
+            timestampString = "556787128.224216"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "435"
+            endingLineNumber = "435"
+            landmarkName = "getDirectionEncodedString(originLatitude:originLongitude:destinationLatitude:destinationLongitude:withCompletionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTaxi/View Controllers/BookingDetailsViewController.swift"
+            timestampString = "556787128.2278661"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "433"
+            endingLineNumber = "433"
+            landmarkName = "getDirectionEncodedString(originLatitude:originLongitude:destinationLatitude:destinationLongitude:withCompletionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyTaxi.BookingDetailsViewController.getDirectionEncodedString(originLatitude: Swift.String, originLongitude: Swift.String, destinationLatitude: Swift.String, destinationLongitude: Swift.String, withCompletionHandler: (Swift.String, Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "MyTaxi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shrikantchidgopkar/Desktop/MyTaxi/MyTaxi/View%20Controllers/BookingDetailsViewController.swift"
+                  timestampString = "555659022.000483"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "200"
+                  endingLineNumber = "200"
+                  offsetFromSymbolStart = "1646">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__ObjC.URLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MyTaxi.BookingDetailsViewController.getDirectionEncodedString(originLatitude: Swift.String, originLongitude: Swift.String, destinationLatitude: Swift.String, destinationLongitude: Swift.String, withCompletionHandler: (Swift.String, Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "MyTaxi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shrikantchidgopkar/Desktop/MyTaxi/MyTaxi/View%20Controllers/BookingDetailsViewController.swift"
+                  timestampString = "555659022.004838"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "202"
+                  endingLineNumber = "202"
+                  offsetFromSymbolStart = "50">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
