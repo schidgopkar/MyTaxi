@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import GoogleMaps
+import GooglePlaces
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let apiKey = "AIzaSyDVvArWNDNF-uNb5CuKLX-Eglha60yrwJo"
+        
+        GMSServices.provideAPIKey(apiKey)
+        
+        GMSPlacesClient.provideAPIKey(apiKey)
+        
+        window?.makeKeyAndVisible()
+        
+        UINavigationBar.appearance().barTintColor = UIColor.init(red: 74/255, green: 74/255, blue: 74/255, alpha: 1)
+        
+        let yellowMyTaxiColor = UIColor.init(red: 255/255, green: 197/255, blue: 0/255, alpha: 1)
+        
+        UINavigationBar.appearance().tintColor = yellowMyTaxiColor
+        
+        let searchBarTextAttributes = [NSAttributedStringKey.foregroundColor.rawValue:UIColor.white]
+        UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).defaultTextAttributes = searchBarTextAttributes
+        
+        application.statusBarStyle = .lightContent
+
+        
+        self.window?.rootViewController =  UINavigationController(rootViewController: HomeViewController())
+        
+        
+        
         return true
     }
 
